@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deutsche autolombard</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./img/favicon/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="./img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/jquery-ui.css">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div class="header-sticky mobile-menu__container" style="display: none;">
+        <div class="container">
+            <div class="header-sticky__wrapper">
+                <ul class="header-menu__list">
+                    <li class="header-menu__item">
+                        <a class="header-menu__link" href="#">УСЛОВИЯ</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a class="header-menu__link" href="#calculator">КАЛЬКУЛЯТОР</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a class="header-menu__link" href="#">БЕЗОПАСНОСТЬ</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a class="header-menu__link" href="#">ОТЗЫВЫ</a>
+                    </li>
+                    <li class="header-menu__item">
+                        <a class="header-menu__link" href="#">ВИДЕО</a>
+                    </li>
+                </ul>
+                <div class="header-phone">
+                    <a href="tel:+78124164216" class="header-phone__link">+7 (812) 416-42-16</a>
+                </div>
+                <button class="btn btn-header btn-modal" data-target="request">ОСТАВИТЬ ЗАЯВКУ</button>
+                <div class="header-menu__btn">
+                    <span></span>
+                </div>
+            </div>
+            <div class="mobile-menu">
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">АВТОЛОМБАРД</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">О КОМПАНИИ</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">ДОГОВОРЫ</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">НОВОСТИ</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">КРЕДИТНЫЕ ПРОДУКТЫ</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">ПРИВИЛЕГИИ</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">ВОПРОСЫ И ОТВЕТЫ</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">СТАТЬИ</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">УСЛОВИЯ</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#calculator">КАЛЬКУЛЯТОР</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">БЕЗОПАСНОСТЬ</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">ОТЗЫВЫ</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a class="mobile-menu__link" href="#">ВИДЕО</a>
+                    </li>
+                </ul>
+                <a href="/" class="logo">
+                    <img class="logo__image" src="./img/icons/logo.svg" alt="logo">
+                </a>
+                <div class="header-location">
+                    <p class="header-location__descr">Займы на лучших условиях в Санкт-Петербурге</p>
+                    <p class="header-location__text">ул. Графтио, д. 3</p>
+                </div>
+                <div class="header-phone">
+                    <a href="tel:+78124164216" class="header-phone__link">+7 (812) 416-42-16</a>
+                    <button class="header-phone__btn" data-target="callback">Заказать обратный звонок</button>
+                </div>
+                <button class="btn btn-header" data-target="request">ОСТАВИТЬ ЗАЯВКУ</button>
+            </div>
+        </div>
+    </div>
+
+    <header class="header mobile-menu__container">
+        <div class="header-menu">
+            <div class="container">
+                <div class="header-menu__wrapper">
+                    <ul class="header-menu__list">
+                        <li class="header-menu__item">
+                            <a class="header-menu__link" href="#">АВТОЛОМБАРД</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a class="header-menu__link" href="#">КРЕДИТНЫЕ ПРОДУКТЫ</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a class="header-menu__link" href="#">О КОМПАНИИ</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a class="header-menu__link" href="#">ПРИВИЛЕГИИ</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a class="header-menu__link" href="#">ДОГОВОРЫ</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a class="header-menu__link" href="#">ВОПРОСЫ И ОТВЕТЫ</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a class="header-menu__link" href="#">НОВОСТИ</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a class="header-menu__link" href="#">СТАТЬИ</a>
+                        </li>
+                        <li class="header-menu__item">
+                            <a class="header-menu__link" href="#">КОНТАКТЫ</a>
+                        </li>
+                    </ul>
+                    <div class="mobile-menu">
+                        <ul class="mobile-menu__list">
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">АВТОЛОМБАРД</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">О КОМПАНИИ</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">ДОГОВОРЫ</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">НОВОСТИ</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">КРЕДИТНЫЕ ПРОДУКТЫ</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">ПРИВИЛЕГИИ</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">ВОПРОСЫ И ОТВЕТЫ</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">СТАТЬИ</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">УСЛОВИЯ</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#calculator">КАЛЬКУЛЯТОР</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">БЕЗОПАСНОСТЬ</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">ОТЗЫВЫ</a>
+                            </li>
+                            <li class="mobile-menu__item">
+                                <a class="mobile-menu__link" href="#">ВИДЕО</a>
+                            </li>
+                        </ul>
+                        <div class="header-location">
+                            <p class="header-location__descr">Займы на лучших условиях в Санкт-Петербурге</p>
+                            <p class="header-location__text">ул. Графтио, д. 3</p>
+                        </div>
+                        <div class="header-phone">
+                            <a href="tel:+78124164216" class="header-phone__link">+7 (812) 416-42-16</a>
+                            <button class="header-phone__btn" data-target="callback">Заказать обратный звонок</button>
+                        </div>
+                        <button class="btn btn-header" data-target="request">ОСТАВИТЬ ЗАЯВКУ</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header__wrapper">
+                <a href="/" class="logo">
+                    <img class="logo__image" src="./img/icons/logo.svg" alt="logo">
+                </a>
+                <div class="header-location">
+                    <p class="header-location__descr">Займы на лучших условиях в Санкт-Петербурге</p>
+                    <p class="header-location__text">ул. Графтио, д. 3</p>
+                </div>
+                <div class="header-phone">
+                    <a href="tel:+78124164216" class="header-phone__link">+7 (812) 416-42-16</a>
+                    <button class="header-phone__btn" data-target="callback">Заказать обратный звонок</button>
+                </div>
+                <button class="btn btn-header" data-target="request">ОСТАВИТЬ ЗАЯВКУ</button>
+                <div class="header-menu__btn">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+ 
+    <section class="hero">
+        <div class="hero__wrapper">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1 class="hero__title">Займ <br>под ПТС по низкой ставке от 2,9% – авто остается у вас</h1>
+                    <ul class="hero-list">
+                        <li class="hero-list__item">Бесплатный выезд оценщика и&nbsp;деньги на&nbsp;карту или&nbsp;наличными в&nbsp;день обращения с&nbsp;доставкой по&nbsp;Санкт-Петербургу и&nbsp;Ленинградской области</li>
+                        <li class="hero-list__item">Услугу оказывает ООО МКК «Немецкая финансовая компания»</li>
+                    </ul>
+                    <a href="#calculator" class="btn btn-calculate">РАССЧИТАТЬ СУММУ ЗАЙМА</a>
+                </div>
+            </div>
+            <div class="hero__image">
+                <img src="./img/hero/bg.png" alt="автомобиль">
+            </div>
+        </div>
+        <div class="container">
+            <ul class="hero-steps">
+                <li class="hero-steps__item">
+                    <div class="hero-steps__text">Оставьте заявку <br>на сайте или по номеру: <a href="tel:+78124164216">+7 (812) 416-42-16</a></div>
+                </li>
+                <li class="hero-steps__item">
+                    <div class="hero-steps__text">Приезжайте <br>к нам в офис на своём автомобиле</div>
+                </li>
+                <li class="hero-steps__item">
+                    <div class="hero-steps__text">Заключите с нашей компанией договор займа под ПТС</div>
+                </li>
+                <li class="hero-steps__item">
+                    <div class="hero-steps__text">Получите займ наличными <br>в день обращения</div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="appraiser">
+        <div class="container">
+            <div class="appraiser__wrapper">
+                <div class="appraiser-left">
+                    <div class="appraiser-item">
+                        <div class="appraiser-item__image">
+                            <img src="./img/appraiser/intersect-1.jpg" alt="Салон">
+                        </div>
+                        <p class="appraiser-item__text">Салон</p>
+                    </div>
+                    <div class="appraiser-item">
+                        <div class="appraiser-item__image">
+                            <img src="./img/appraiser/intersect-2.jpg" alt="Техническое состояние">
+                        </div>
+                        <p class="appraiser-item__text">Техническое состояние</p>
+                    </div>
+                    <div class="appraiser-item">
+                        <div class="appraiser-item__image">
+                            <img src="./img/appraiser/intersect-3.jpg" alt="Кузов">
+                        </div>
+                        <p class="appraiser-item__text">Кузов</p>
+                    </div>
+                    <div class="appraiser-item">
+                        <div class="appraiser-item__image">
+                            <img src="./img/appraiser/intersect-4.jpg" alt="опутствующие факторы">
+                        </div>
+                        <p class="appraiser-item__text">Сопутствующие факторы</p>
+                    </div>
+                </div>
+                <div class="appraiser-right">
+                    <h2 class="title">
+                        <span>Бесплатный выезд</span> оценщика и доставка денег
+                    </h2>
+                    <div class="appraiser__descr">
+                        <p>Некогда ехать в ломбард? Пригласите нашего специалиста для оценки вашего автомобиля.</p>
+                        <p>Услуга полностью бесплатна. Оценщик автоломбарда приедет в удобное вам место и время
+                            в Санкт-Петербурге в пределах КАД и на месте определит возможную сумму займа и процентную
+                            ставку.</p>
+                    </div>
+                    <button class="btn btn-appraiser" data-target="appraiser">ВЫЗВАТЬ ОЦЕНЩИКА</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="calculator" id="calculator">
+        <div class="container">
+            <div class="calculator__wrapper">
+                <h2 class="title"><span>Калькулятор</span> «Немецкого автоломбарда»</h2>
+                <div class="calculator__form">
+                    <div class="calculator__item">
+                        <p class="calculator__descr">Рыночная стоимость автомобиля</p>
+                        <input type="text" class="calculator__input" value="350 000 ₽" id="price-result">
+                        <div class="calculator__range-wrapper">
+                            <div id="price"></div>
+                            <div class="calculator__range-descr">
+                                <span>350 000 ₽</span><span>3 000 000 ₽</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calculator__item">
+                        <p class="calculator__descr">Срок займа</p>
+                        <input type="text" class="calculator__input" value="1 месяц" id="months-result">
+                        <div class="calculator__range-wrapper">
+                            <div id="months"></div>
+                            <div class="calculator__range-descr">
+                                <span>1 месяц</span><span>36 месяцев</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="calculator__item">
+                        <p class="calculator__descr">Ежемесячный платёж</p>
+                        <input type="text" class="calculator__input" value="50 000 ₽" id="payment-result">
+                        <div class="calculator__range-wrapper">
+                            <div id="payment"></div>
+                        </div>
+                    </div>
+                    <div class="calculator__item calculator__item--white">
+                        <p class="calculator__descr">Оценочная сумма процентов</p>
+                        <input type="text" class="calculator__input" value="10 650 ₽"
+                            id="percentages-result" readonly>
+                    </div>
+                    <div class="calculator__item calculator__item--white">
+                        <p class="calculator__descr">Оценочная сумма займа</p>
+                        <input type="text" class="calculator__input" value="360 650 ₽"
+                            id="summ-result" readonly>
+                    </div>
+                    <div class="calculator__item calculator__item--white">
+                        <p class="calculator__descr">Оценочная ставка: <span>3,3%</span> в месяц</p>
+                        <button class="btn btn-form" data-target="approval">ПОЛУЧИТЬ ОДОБРЕНИЕ</button>
+                    </div>
+                </div>
+                <ul class="calculator-footer">
+                    <li class="calculator-footer__item">
+                        <button class="calculator-footer__btn" data-target="save">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7.49996 18.3334H12.5C16.6666 18.3334 18.3333 16.6667 18.3333 12.5V7.50002C18.3333 3.33335 16.6666 1.66669 12.5 1.66669H7.49996C3.33329 1.66669 1.66663 3.33335 1.66663 7.50002V12.5C1.66663 16.6667 3.33329 18.3334 7.49996 18.3334Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M7.5 9.59167L10 12.0917L12.5 9.59167" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M10 12.0917V5.42499" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M5 13.7583C8.24167 14.8416 11.7583 14.8416 15 13.7583" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg><span>Сохранить
+                                результаты</span>
+                        </button>
+                    </li>
+                    <li class="calculator-footer__item">
+                        <button class="calculator-footer__btn"
+                            data-target="schedule">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.66669 1.66669V4.16669" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M13.3333 1.66669V4.16669" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2.91669 7.57501H17.0834" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M17.5 7.08335V14.1667C17.5 16.6667 16.25 18.3334 13.3333 18.3334H6.66667C3.75 18.3334 2.5 16.6667 2.5 14.1667V7.08335C2.5 4.58335 3.75 2.91669 6.66667 2.91669H13.3333C16.25 2.91669 17.5 4.58335 17.5 7.08335Z" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M13.0789 11.4167H13.0864" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M13.0789 13.9167H13.0864" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.99626 11.4167H10.0037" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M9.99626 13.9167H10.0037" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6.91191 11.4167H6.91939" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6.91191 13.9167H6.91939" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg><span>Открыть график платежей</span>
+                        </button>
+                    </li>
+                    <li class="calculator-footer__item">
+                        <button class="calculator-footer__btn"
+                            data-target="conditions">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.6667 6.87502V15C16.6667 17.5 15.175 18.3334 13.3333 18.3334H6.66668C4.82501 18.3334 3.33334 17.5 3.33334 15V6.87502C3.33334 4.16669 4.82501 3.54169 6.66668 3.54169C6.66668 4.05835 6.87499 4.52502 7.21665 4.86668C7.55832 5.20835 8.02501 5.41669 8.54168 5.41669H11.4583C12.4917 5.41669 13.3333 4.57502 13.3333 3.54169C15.175 3.54169 16.6667 4.16669 16.6667 6.87502Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M13.3333 3.54169C13.3333 4.57502 12.4917 5.41669 11.4583 5.41669H8.54166C8.02499 5.41669 7.5583 5.20835 7.21663 4.86668C6.87497 4.52502 6.66666 4.05835 6.66666 3.54169C6.66666 2.50835 7.50832 1.66669 8.54166 1.66669H11.4583C11.975 1.66669 12.4417 1.87502 12.7833 2.21669C13.125 2.55836 13.3333 3.02502 13.3333 3.54169Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6.66666 10.8333H9.99999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6.66666 14.1667H13.3333" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg><span>Полные условия займа</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="examples">
+        <div class="container">
+            <div class="examples__header">
+                <h2 class="title">Примеры выданных займов <br><span>под залог ПТС</span>
+                </h2>
+                <div class="examples__navigation">
+                    <button class="examples__prev"></button>
+                    <button class="examples__next"></button>
+                </div>
+            </div>
+            <ul class="examples__wrapper">
+                <li class="examples__item">
+                    <div class="examples__image">
+                        <img src="./img/examples/example-1.png" alt="Audi A6">
+                    </div>
+                    <div class="examples__text">
+                        <h3 class="examples__title">Audi A6</h3>
+                        <p class="examples__descr">2009 г. в., 185 000 км</p>
+                        <ul class="examples__list">
+                            <li>
+                                <span>Оценка:</span>
+                                <span>570 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Выдано:</span>
+                                <span>260 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Ставка:</span>
+                                <span>6,9 % в мес.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="examples__item">
+                    <div class="examples__image">
+                        <img src="./img/examples/example-2.png" alt="Toyota Camry">
+                    </div>
+                    <div class="examples__text">
+                        <h3 class="examples__title">Toyota Camry</h3>
+                        <p class="examples__descr">2013 г. в., 108 000 км</p>
+                        <ul class="examples__list">
+                            <li>
+                                <span>Оценка:</span>
+                                <span>850 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Выдано:</span>
+                                <span>470 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Ставка:</span>
+                                <span>7 % в мес.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="examples__item">
+                    <div class="examples__image">
+                        <img src="./img/examples/example-3.png" alt="Mercedes Benz GLK">
+                    </div>
+                    <div class="examples__text">
+                        <h3 class="examples__title">Mercedes Benz GLK</h3>
+                        <p class="examples__descr">2014 г. в., 68 000 км</p>
+                        <ul class="examples__list">
+                            <li>
+                                <span>Оценка:</span>
+                                <span>1 200 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Выдано:</span>
+                                <span>650 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Ставка:</span>
+                                <span>6,8 % в мес.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="examples__item">
+                    <div class="examples__image">
+                        <img src="./img/examples/example-4.png" alt="KIA Sportage">
+                    </div>
+                    <div class="examples__text">
+                        <h3 class="examples__title">KIA Sportage</h3>
+                        <p class="examples__descr">2014 г. в., 125 000 км</p>
+                        <ul class="examples__list">
+                            <li>
+                                <span>Оценка:</span>
+                                <span>1 600 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Выдано:</span>
+                                <span>640 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Ставка:</span>
+                                <span>6,3 % в мес.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="examples__item">
+                    <div class="examples__image">
+                        <img src="./img/examples/example-5.png" alt="BMW X6">
+                    </div>
+                    <div class="examples__text">
+                        <h3 class="examples__title">BMW X6</h3>
+                        <p class="examples__descr">2018 г. в., 48 000 км</p>
+                        <ul class="examples__list">
+                            <li>
+                                <span>Оценка:</span>
+                                <span>4 400 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Выдано:</span>
+                                <span>1 800 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Ставка:</span>
+                                <span>6,2 % в мес.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="examples__item">
+                    <div class="examples__image">
+                        <img src="./img/examples/example-6.png" alt="Hyundai Solaris">
+                    </div>
+                    <div class="examples__text">
+                        <h3 class="examples__title">Hyundai Solaris</h3>
+                        <p class="examples__descr">2016 г. в., 72 000 км</p>
+                        <ul class="examples__list">
+                            <li>
+                                <span>Оценка:</span>
+                                <span>570 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Выдано:</span>
+                                <span>240 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Ставка:</span>
+                                <span>7,3 % в мес.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="examples__item">
+                    <div class="examples__image">
+                        <img src="./img/examples/example-7.png" alt="Honda Accord">
+                    </div>
+                    <div class="examples__text">
+                        <h3 class="examples__title">Honda Accord</h3>
+                        <p class="examples__descr">2012 г. в., 89 000 км</p>
+                        <ul class="examples__list">
+                            <li>
+                                <span>Оценка:</span>
+                                <span>800 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Выдано:</span>
+                                <span>500 000 ₽</span>
+                            </li>
+                            <li>
+                                <span>Ставка:</span>
+                                <span>7,2 % в мес.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="overlay">
+        <div class="popup" id="request">
+            <h2 class="popup__title">Оставьте заявку</h2>
+            <button class="popup__close"></button>
+            <div class="popup__descr">Мы свяжемся с Вами в ближайшее время</div>
+            <form class="popup__form" name="form_message" action="go-to" method="post" id='form-request'>
+                <input class="popup__input" type="text" name="fio" required autocomplete="off" placeholder="Ваше ФИО*">
+                <input class="popup__input" type="tel" name="phone" required autocomplete="off"
+                    placeholder="Ваш номер телефона*">
+                <input class="custom-checkbox" type="checkbox" name="checkbox" id="request-popup"
+                    value="Согласен с условиями обработки персональных данных" required>
+                <label class="popup-checkbox" for='request-popup'>Согласен с <a href="#">условиями</a> обработки
+                    персональных данных</label>
+                <button class="btn btn-popup" type="submit">отправить</button>
+            </form>
+        </div>
+        <div class="popup" id="callback">
+            <h2 class="popup__title">Обратный звонок</h2>
+            <button class="popup__close"></button>
+            <div class="popup__descr">Мы свяжемся с Вами в ближайшее время</div>
+            <form class="popup__form" name="form_message" action="go-to" method="post" id='form-callback'>
+                <input class="popup__input" type="text" name="fio" required autocomplete="off" placeholder="Ваше ФИО*">
+                <input class="popup__input" type="tel" name="phone" required autocomplete="off"
+                    placeholder="Ваш номер телефона*">
+                <input class="custom-checkbox" type="checkbox" name="checkbox" id="callback-popup"
+                    value="Согласен с условиями обработки персональных данных" required>
+                <label class="popup-checkbox" for='callback-popup'>Согласен с <a href="#">условиями</a> обработки
+                    персональных данных</label>
+                <button class="btn btn-popup" type="submit">ЗАКАЗАТЬ ЗВОНОК</button>
+            </form>
+        </div>
+        <div class="popup" id="appraiser">
+            <h2 class="popup__title">Заявка на выезд оценщика</h2>
+            <button class="popup__close"></button>
+            <form class="popup__form" name="form_message" action="go-to" method="post" id='form-appraiser'>
+                <input class="popup__input" type="text" name="fio" required autocomplete="off" placeholder="Ваше ФИО*">
+                <input class="popup__input" type="tel" name="phone" required autocomplete="off"
+                    placeholder="Ваш номер телефона*">
+                <textarea class="popup__input popup__textarea" name="comment" placeholder="Ваш комментарий"></textarea>
+                <input class="custom-checkbox" type="checkbox" name="checkbox" id="appraiser-popup"
+                    value="Согласен с условиями обработки персональных данных" required>
+                <label class="popup-checkbox" for='appraiser-popup'>Согласен с <a href="#">условиями</a> обработки
+                    персональных данных</label>
+                <button class="btn btn-popup" type="submit">отправить</button>
+            </form>
+        </div>
+        <div class="popup" id="approval">
+            <h2 class="popup__title">Получить одобрение</h2>
+            <button class="popup__close"></button>
+            <div class="popup__descr">Заполните форму и мы с Вами свяжемся</div>
+            <ul class="popup__info">
+                <li>Оценочная сумма займа: <span class="popup__summ">350 000 ₽</span>
+                </li>
+                <li>Оценочная сумма процентов: <span class="popup__percentages">10 650 ₽</span>
+                </li>
+                <li>Срок займа: <span class="popup__months">1 месяц</span>
+                </li>
+                <li>Оценочная ставка: <span>3,3% в месяц</span>
+                </li>
+            </ul>
+            <form class="popup__form" name="form_message" action="go-to" method="post" id='form-approval'>
+                <input class="popup__input" type="text" name="fio" required autocomplete="off" placeholder="Ваше ФИО*">
+                <input class="popup__input" type="tel" name="phone" required autocomplete="off"
+                    placeholder="Ваш номер телефона*">
+                <input class="custom-checkbox" type="checkbox" name="checkbox" id="approval-popup"
+                    value="Согласен с условиями обработки персональных данных" required>
+                <label class="popup-checkbox" for='approval-popup'>Согласен с <a href="#">условиями</a> обработки
+                    персональных данных</label>
+                <button class="btn btn-popup" type="submit">отправить</button>
+            </form>
+        </div>
+        <div class="popup" id="save">
+            <h2 class="popup__title">Заполните форму</h2>
+            <button class="popup__close"></button>
+            <div class="popup__descr">И мы вышлем результаты Вам на почту</div>
+            <form class="popup__form" name="form_message" action="go-to" method="post" id='form-save'>
+                <input class="popup__input" type="text" name="fio" autocomplete="off" placeholder="Ваше ФИО">
+                <input class="popup__input" type="tel" name="phone" required autocomplete="off"
+                    placeholder="Ваш номер телефона*">
+                <input class="popup__input" type="email" name="email" required autocomplete="off"
+                    placeholder="Ваш Email*">
+                <input class="custom-checkbox" type="checkbox" name="checkbox" id="save-popup"
+                    value="Согласен с условиями обработки персональных данных" required>
+                <label class="popup-checkbox" for='save-popup'>Согласен с <a href="#">условиями</a> обработки
+                    персональных данных</label>
+                <button class="btn btn-popup" type="submit">СОХРАНИТЬ РЕЗУЛЬТАТЫ</button>
+            </form>
+        </div>
+        <div class="popup" id="schedule">
+            <h2 class="popup__title">Ваш график платежей</h2>
+            <button class="popup__close"></button>
+            <ul class="popup__info popup__info-columns">
+                <li>Оценочная сумма займа: <span class="popup__summ">350 000 ₽</span>
+                </li>
+                <li>Оценочная сумма процентов: <span class="popup__percentages">10 650 ₽</span>
+                </li>
+                <li>Срок займа: <span class="popup__months">1 месяц</span>
+                </li>
+                <li>Оценочная ставка: <span>3,3% в месяц</span>
+                </li>
+            </ul>
+            <div class="popup__table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>№</th>
+                            <th>Платеж, ₽</th>
+                            <th>Проценты, ₽</th>
+                            <th>Основной долг, ₽</th>
+                            <th>Остаток, ₽</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>30 138, 63</td>
+                            <td>9000, 00</td>
+                            <td>21 138, 63</td>
+                            <td>278 861, 37</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>30 138, 63</td>
+                            <td>8365, 84</td>
+                            <td>21 772, 78</td>
+                            <td>257 088, 59</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>30 138, 63</td>
+                            <td>7712, 66</td>
+                            <td>22 425, 97</td>
+                            <td>234 662, 62</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>30 138, 63</td>
+                            <td>7039, 88</td>
+                            <td>23 098, 75</td>
+                            <td>211 563, 88</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>30 138, 63</td>
+                            <td>6346, 92</td>
+                            <td>23 791, 71</td>
+                            <td>187 772, 17</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>30 138, 63</td>
+                            <td>5633, 16</td>
+                            <td>24 505, 46</td>
+                            <td>163 266, 70</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>30 138, 63</td>
+                            <td>7039, 88</td>
+                            <td>23 098, 75</td>
+                            <td>211 563, 88</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="popup" id="conditions">
+            <h2 class="popup__title">Полные условия займа</h2>
+            <button class="popup__close"></button>
+            <ul class="popup__list">
+                <li>Сумма займа: от 40% до 80% от рыночной стоимости Вашего автомобиля</li>
+                <li>Срок кредитования: от 1 до 36 месяцев по программе «Автозалог» и без ограничений по программе
+                    «Автоломбард»</li>
+                <li>Минимальная процентная ставка в Санкт-Петербурге - рассчитывается индивидуально.</li>
+                <li>Ежемесячно можно оплачивать только проценты за пользование займом</li>
+                <li>Выплата займа наличными деньгами в день обращения клиента.</li>
+                <li>Возможна доставка денег по удобному вам адресу</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./js/jquery-1.12.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/jquery.ui.touch-punch.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
