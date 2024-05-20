@@ -541,6 +541,10 @@ img {
   align-items: center;
 }
 
+.header-sticky .header-menu__list {
+  width: auto;
+}
+
 .header-menu__item {
   margin: 21px 25px 20px;
 }
